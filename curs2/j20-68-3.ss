@@ -1,0 +1,6 @@
+(define (g? a b?) 
+    (f? a #f b?)
+)
+(define (f? a b? c) 
+    b?
+)

@@ -1,0 +1,6 @@
+(define (f? a b) 
+    (not #t)
+)
+(define (g? a b) 
+    (f? b a b)
+)

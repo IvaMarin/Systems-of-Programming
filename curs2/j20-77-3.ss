@@ -1,0 +1,6 @@
+(define (f x y)
+    (g x y 1 2 3)
+)
+(define (g a b)
+    (- a b)
+)
